@@ -8,10 +8,14 @@ venv/
 .env
 uv.lock
 data/raw/*
-data/processed/*
+data/vector_db/*
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 *.log
 .pytest_cache/
+*.sqlite3
+*.bin
+*.egg-info/
 frontend/node_modules/
 frontend/dist/
+frontend/package-lock.json

@@ -4,6 +4,13 @@ An AI-powered application for compliance analysis using RAG (Retrieval-Augmented
 
 ## 🚀 Quick Start
 
+### Clone Repo
+
+```bash
+git clone https://github.com/Fatait/ai-compliance-app.git
+cd ai-compliance-app
+```
+
 ### 1. Install UV (if not installed)
 
 **Mac/Linux:**
