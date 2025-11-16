@@ -20,7 +20,7 @@ powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
 
 ```bash
 # Create virtual environment
-uv venv
+uv venv -p 3.12 .venv
 
 # Activate virtual environment
 source .venv/bin/activate  # Mac/Linux

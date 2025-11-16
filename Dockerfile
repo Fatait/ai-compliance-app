@@ -1,4 +1,4 @@
-FROM python:3.11-slim
+FROM python:3.12-slim
 
 WORKDIR /app
 
@@ -8,6 +8,7 @@ RUN pip install uv
 # Copy project files
 COPY pyproject.toml .
 COPY src/ src/
+COPY .env .
 
 # Install dependencies
 RUN uv pip install --system -e .
