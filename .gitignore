@@ -1,0 +1,18 @@
+# ============================================
+# FILE: .gitignore
+# ============================================
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+uv.lock
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+models/
+*.log
+.pytest_cache/
+frontend/node_modules/
+frontend/dist/
