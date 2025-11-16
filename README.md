@@ -33,6 +33,10 @@ uv venv -p 3.12 .venv
 source .venv/bin/activate  # Mac/Linux
 .venv\Scripts\activate     # Windows
 
+# Copy .env example
+cp .env.example .env  # Mac/Linux
+copy .env.example .env # Windows
+
 # Install dependencies
 uv pip install -e .
 
