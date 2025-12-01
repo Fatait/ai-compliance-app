@@ -9,7 +9,7 @@ class LLMService:
             # Get free API key from: https://console.groq.com
             self.client = Groq(api_key=settings.GROQ_API_KEY)
             # Available models: llama-3.1-70b-versatile, mixtral-8x7b-32768, gemma-7b-it
-            self.model = "openai/gpt-oss-20b"  # Fast and good quality
+            self.model = "openai/gpt-oss-120b"  # Fast and good quality
             logger.info("Groq client initialized successfully.")
         except Exception as e:
             logger.error(f"Error initializing Groq client: {e}")
@@ -30,7 +30,8 @@ class LLMService:
                 messages=[
                     {
                         "role": "system",
-                        "content": "Tu es un assistant spécialisé en conformité réglementaire. Réponds en français de manière claire, précise et professionnelle."
+                        "content": """Tu es un assistant spécialisé en conformité réglementaire. Réponds en français de manière claire, précise et professionnelle.
+                                    N'utilise jamais de diagrammes Mermaid, aucun schéma, et aucun formatage qui ressemble à du code """
                     },
                     {
                         "role": "user",
@@ -38,7 +39,7 @@ class LLMService:
                     }
                 ],
                 temperature=0.7,
-                max_tokens=1024
+                max_tokens=60000
             )
             logger.info("Groq API call successful.")
             return response.choices[0].message.content

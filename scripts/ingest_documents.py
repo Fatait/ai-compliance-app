@@ -3,62 +3,27 @@
 import sys
 sys.path.insert(0, './src')
 
+import json
 from compliance_ai.database.document_manager import document_manager
 
-def ingest_sample_documents():
-    """Ingest sample documents for testing."""
+def ingest_iso9001_documents():
+    """Ingest ISO 9001 documents from JSON file."""
+    print("📥 Ingesting ISO 9001 documents...")
     
-    # Sample regulation
-    regulation_text = """
-    Article 1: Dispositions générales
-    Toute offre commerciale doit inclure les mentions légales obligatoires.
+    with open('data/iso9001_chunks.json', 'r', encoding='utf-8') as f:
+        data = json.load(f)
     
-    Article 2: Prix et conditions
-    Le prix doit être indiqué en toutes lettres et en chiffres, TTC.
-    
-    Article 3: Garanties
-    Une garantie minimale de 2 ans doit être proposée sur tous les produits.
-    
-    Article 4: Délai de rétractation
-    Un délai de rétractation de 14 jours doit être mentionné.
-    """
-    
-    # Sample offer
-    offer_text = """
-    OFFRE COMMERCIALE
-    
-    Produit: Ordinateur portable XYZ
-    Prix: 999€ TTC (neuf cent quatre-vingt-dix-neuf euros)
-    
-    Garantie: 2 ans constructeur
-    Délai de livraison: 3-5 jours ouvrés
-    
-    Vous disposez d'un délai de rétractation de 14 jours.
-    
-    Mentions légales:
-    Société ABC - SIRET: 123456789
-    """
-    
-    print("📥 Ingesting sample documents...")
-    
-    # Add regulation
-    reg_id = document_manager.add_document(
-        title="Règlement Général Commerce 2024",
-        content=regulation_text,
-        doc_type="regulation"
-    )
-    print(f"✅ Regulation added: {reg_id}")
-    
-    # Add offer
-    offer_id = document_manager.add_document(
-        title="Offre Ordinateur Portable XYZ",
-        content=offer_text,
-        doc_type="offer"
-    )
-    print(f"✅ Offer added: {offer_id}")
-    
-    print("\n✨ Sample documents ingested successfully!")
+    for doc in data['documents']:
+        doc_id = document_manager.add_document(
+            title=doc['title'],
+            content=doc['content'],
+            doc_type="regulation"  # You can adjust the doc_type as needed
+        )
+        print(f"✅ ISO 9001 document added: {doc_id} - {doc['title']}")
+        
+    print("\n✨ ISO 9001 documents ingested successfully!")
+
     print("You can now use the chatbot and compliance analysis features.")
 
 if __name__ == "__main__":
-    ingest_sample_documents()
+    ingest_iso9001_documents()

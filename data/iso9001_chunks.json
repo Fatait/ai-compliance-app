@@ -1,0 +1,159 @@
+{
+  "documents": [
+    {
+      "id": "iso9001_chunk_1",
+      "title": "Définition de l'ISO 9001",
+      "content": "L'ISO 9001 est une norme internationale qui définit les exigences pour établir un système de management de la qualité, appelé SMQ. Elle aide les organisations à fournir des produits et services cohérents répondant aux attentes des clients. Elle s'applique à toutes les organisations, quel que soit leur secteur ou leur taille."
+    },
+    {
+      "id": "iso9001_chunk_2",
+      "title": "Objectif principal de l'ISO 9001",
+      "content": "L'objectif principal de l'ISO 9001 est d'améliorer la satisfaction des clients. La norme encourage les organisations à comprendre les besoins des clients, à améliorer leurs processus et à travailler de manière plus efficace et cohérente."
+    },
+    {
+      "id": "iso9001_chunk_3",
+      "title": "Principes de management de la qualité",
+      "content": "L'ISO 9001 repose sur sept principes de management de la qualité : orientation client, leadership, engagement du personnel, approche processus, amélioration continue, prise de décision fondée sur des preuves, gestion des relations avec les parties intéressées."
+    },
+    {
+      "id": "iso9001_chunk_4",
+      "title": "Orientation client",
+      "content": "L'organisation doit comprendre les besoins actuels et futurs de ses clients. Elle doit viser à dépasser leurs attentes et mesurer régulièrement leur satisfaction afin d'améliorer ses produits et services."
+    },
+    {
+      "id": "iso9001_chunk_5",
+      "title": "Rôle du leadership",
+      "content": "La direction doit montrer un engagement clair envers la qualité. Elle doit définir une politique qualité, établir des objectifs cohérents, soutenir le personnel et s'assurer que les responsabilités pour le SMQ sont bien définies et comprises."
+    },
+    {
+      "id": "iso9001_chunk_6",
+      "title": "Engagement du personnel",
+      "content": "La norme encourage la participation active de toutes les personnes de l'organisation. Le personnel doit être compétent, formé, conscient de son rôle et capable de contribuer efficacement au système de management de la qualité."
+    },
+    {
+      "id": "iso9001_chunk_7",
+      "title": "Approche processus",
+      "content": "L'approche processus consiste à gérer les activités comme des processus reliés entre eux. Chaque processus doit avoir des entrées, des activités, des ressources, des responsabilités et des résultats mesurables pour améliorer les performances globales."
+    },
+    {
+      "id": "iso9001_chunk_8",
+      "title": "Amélioration continue",
+      "content": "L'amélioration continue est au cœur de l'ISO 9001. L'organisation doit constamment chercher des moyens d'améliorer ses processus, ses produits et son système de management grâce aux retours clients, aux audits et aux analyses internes."
+    },
+    {
+      "id": "iso9001_chunk_9",
+      "title": "Décisions fondées sur des preuves",
+      "content": "Les décisions doivent être basées sur des analyses fiables et sur des données pertinentes. L'organisation doit suivre des indicateurs, mesurer ses performances et utiliser les informations recueillies pour s'améliorer."
+    },
+    {
+      "id": "iso9001_chunk_10",
+      "title": "Gestion des relations",
+      "content": "L'organisation doit maintenir de bonnes relations avec les parties intéressées pertinentes, notamment les clients, les fournisseurs et les partenaires. Une bonne collaboration améliore les performances globales et la qualité des produits."
+    },
+    {
+      "id": "iso9001_chunk_11",
+      "title": "Contexte de l'organisation",
+      "content": "L'organisation doit comprendre son contexte interne et externe. Elle doit analyser les facteurs qui peuvent influencer son système de management, comme la culture, la technologie, la concurrence et les exigences légales."
+    },
+    {
+      "id": "iso9001_chunk_12",
+      "title": "Parties intéressées",
+      "content": "L'organisation doit identifier les parties intéressées pertinentes pour le SMQ, comprendre leurs besoins et exigences, et surveiller régulièrement les évolutions pour maintenir la conformité."
+    },
+    {
+      "id": "iso9001_chunk_13",
+      "title": "Détermination du périmètre du SMQ",
+      "content": "L'organisation doit définir clairement la portée du système de management de la qualité. Cela inclut les activités couvertes, les sites, les processus inclus et les éventuelles exclusions justifiées de la norme."
+    },
+    {
+      "id": "iso9001_chunk_14",
+      "title": "Leadership et engagement",
+      "content": "La direction doit démontrer son engagement envers le SMQ en fournissant les ressources nécessaires, en communiquant l'importance de la qualité et en intégrant le management de la qualité dans les processus stratégiques."
+    },
+    {
+      "id": "iso9001_chunk_15",
+      "title": "Politique qualité",
+      "content": "La politique qualité doit être adaptée à l'organisation, comprise par tout le personnel et communiquée à l'interne et à l'externe. Elle doit favoriser l'amélioration continue et aligner les objectifs qualité."
+    },
+    {
+      "id": "iso9001_chunk_16",
+      "title": "Objectifs qualité",
+      "content": "Les objectifs qualité doivent être mesurables, cohérents avec la politique qualité et surveillés régulièrement. Ils doivent aider à améliorer la performance de l'organisation."
+    },
+    {
+      "id": "iso9001_chunk_17",
+      "title": "Planification des risques et opportunités",
+      "content": "L'organisation doit identifier les risques qui peuvent affecter la qualité et planifier des actions pour les maîtriser. Elle doit également identifier les opportunités qui peuvent améliorer la performance."
+    },
+    {
+      "id": "iso9001_chunk_18",
+      "title": "Ressources et compétences",
+      "content": "L'organisation doit fournir les ressources nécessaires, telles que le personnel, les infrastructures, l'équipement et l'environnement de travail. Le personnel doit être compétent et recevoir la formation adéquate."
+    },
+    {
+      "id": "iso9001_chunk_19",
+      "title": "Communication interne et externe",
+      "content": "L'organisation doit définir comment elle communique en interne et en externe concernant le SMQ. Elle doit s'assurer que les informations sont claires, cohérentes et transmises aux parties concernées."
+    },
+    {
+      "id": "iso9001_chunk_20",
+      "title": "Gestion de la documentation",
+      "content": "La norme exige que l'organisation contrôle les informations documentées. Cela inclut la création, la mise à jour, l'approbation, la conservation, la protection et la diffusion des documents et enregistrements."
+    },
+    {
+      "id": "iso9001_chunk_21",
+      "title": "Planification opérationnelle",
+      "content": "L'organisation doit planifier, mettre en œuvre et contrôler ses processus opérationnels. Cela inclut la gestion des exigences clients, la conception, la production, la prestation de services et la logistique."
+    },
+    {
+      "id": "iso9001_chunk_22",
+      "title": "Relation client",
+      "content": "L'organisation doit déterminer clairement les exigences des clients, communiquer efficacement avec eux et s'assurer de leur satisfaction. Les retours clients doivent être collectés et analysés."
+    },
+    {
+      "id": "iso9001_chunk_23",
+      "title": "Conception et développement",
+      "content": "Pour les organisations qui conçoivent des produits, elles doivent planifier, contrôler et vérifier les activités de conception et développement. Elles doivent identifier les exigences, tester les prototypes et valider les résultats."
+    },
+    {
+      "id": "iso9001_chunk_24",
+      "title": "Contrôle des fournisseurs",
+      "content": "L'organisation doit évaluer et sélectionner les fournisseurs en fonction de leur capacité à fournir des produits conformes. Elle doit surveiller leur performance et prendre des mesures en cas de non-conformité."
+    },
+    {
+      "id": "iso9001_chunk_25",
+      "title": "Production et prestation de services",
+      "content": "L'organisation doit contrôler les activités de production et de service. Cela inclut l'utilisation d'instructions de travail, la traçabilité, la maintenance des équipements et la validation des processus critiques."
+    },
+    {
+      "id": "iso9001_chunk_26",
+      "title": "Libération des produits",
+      "content": "Avant qu'un produit ou service soit livré, l'organisation doit effectuer des inspections et des vérifications pour s'assurer qu'il répond aux exigences. Elle doit conserver les preuves de conformité."
+    },
+    {
+      "id": "iso9001_chunk_27",
+      "title": "Non-conformités et actions correctives",
+      "content": "Lorsqu'une non-conformité est détectée, l'organisation doit réagir, réparer ou remplacer le produit, analyser la cause, mettre en place une action corrective et vérifier son efficacité."
+    },
+    {
+      "id": "iso9001_chunk_28",
+      "title": "Surveillance et mesure",
+      "content": "L'organisation doit mesurer ses performances à l'aide d'indicateurs et d'outils de suivi. Les résultats doivent être analysés pour identifier les tendances et prendre des décisions éclairées."
+    },
+    {
+      "id": "iso9001_chunk_29",
+      "title": "Audit interne",
+      "content": "Des audits internes doivent être réalisés régulièrement pour vérifier la conformité du système de management de la qualité. Les auditeurs doivent être compétents et indépendants des activités auditées."
+    },
+    {
+      "id": "iso9001_chunk_30",
+      "title": "Revue de direction",
+      "content": "La direction doit analyser les performances du SMQ lors de revues périodiques. Elle doit examiner les objectifs, les retours clients, l'efficacité des actions, les risques et les opportunités."
+    },
+    {
+      "id": "iso9001_chunk_31",
+      "title": "Amélioration continue",
+      "content": "L'organisation doit démontrer son engagement pour l'amélioration continue en utilisant les résultats des audits, les analyses de données, les retours clients et les actions correctives."
+    }
+  ]
+}
