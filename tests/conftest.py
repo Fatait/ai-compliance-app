@@ -9,6 +9,21 @@ def client():
     """Create test client."""
     return TestClient(app)
 
+
+@pytest.fixture
+def authenticated_client(client: TestClient):
+    """Create an authenticated test client."""
+    user_data = {"username": "testuser", "password": "testpassword"}
+    client.post("/api/v1/auth/register", json=user_data)
+
+    login_data = {"username": "testuser", "password": "testpassword"}
+    response = client.post("/api/v1/auth/login", data=login_data)
+    token = response.json()["access_token"]
+
+    client.headers = {"Authorization": f"Bearer {token}"}
+    return client
+
+
 @pytest.fixture
 def sample_chat_message():
     """Sample chat message."""

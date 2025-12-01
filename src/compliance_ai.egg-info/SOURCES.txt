@@ -15,11 +15,15 @@ src/compliance_ai/api/routes/chatbot.py
 src/compliance_ai/api/routes/compliance.py
 src/compliance_ai/api/routes/documents.py
 src/compliance_ai/api/routes/health.py
+src/compliance_ai/auth/auth.py
+src/compliance_ai/auth/routes.py
+src/compliance_ai/auth/schemas.py
 src/compliance_ai/core/__init__.py
 src/compliance_ai/core/config.py
 src/compliance_ai/core/exceptions.py
 src/compliance_ai/database/__init__.py
 src/compliance_ai/database/document_manager.py
+src/compliance_ai/database/local_db.py
 src/compliance_ai/database/vector_store.py
 src/compliance_ai/models/__init__.py
 src/compliance_ai/models/schemas.py

@@ -1,9 +1,10 @@
 # ============================================
 # FILE: src/compliance_ai/api/routes/documents.py
 # ============================================
-from fastapi import APIRouter, UploadFile, File, HTTPException, Query
+from fastapi import APIRouter, UploadFile, File, HTTPException, Query, Depends
 from compliance_ai.database.document_manager import document_manager
 from compliance_ai.utils.file_processor import file_processor
+from compliance_ai.auth.routes import get_current_user
 from typing import List, Optional
 import tempfile
 import os
@@ -14,7 +15,8 @@ router = APIRouter()
 async def upload_document(
     file: UploadFile = File(...),
     title: str = Query(...),
-    doc_type: str = Query(..., pattern="^(offer|regulation)$")
+    doc_type: str = Query(..., pattern="^(offer|regulation)$"),
+    current_user: dict = Depends(get_current_user)
 ):
     """Upload a document."""
     try:
@@ -43,7 +45,7 @@ async def upload_document(
         raise HTTPException(status_code=500, detail=str(e))
 
 @router.get("/")
-async def list_documents(doc_type: Optional[str] = None):
+async def list_documents(doc_type: Optional[str] = None, current_user: dict = Depends(get_current_user)):
     """List all documents."""
     try:
         documents = document_manager.list_documents(doc_type)
@@ -52,7 +54,7 @@ async def list_documents(doc_type: Optional[str] = None):
         raise HTTPException(status_code=500, detail=str(e))
 
 @router.delete("/{document_id}")
-async def delete_document(document_id: str):
+async def delete_document(document_id: str, current_user: dict = Depends(get_current_user)):
     """Delete a document."""
     try:
         document_manager.delete_document(document_id)

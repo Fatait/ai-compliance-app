@@ -5,6 +5,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from compliance_ai.core.config import settings
 from compliance_ai.api.routes import chatbot, compliance, health, documents
+from compliance_ai.auth import routes as auth_routes
 
 app = FastAPI(
     title="AI Compliance API",
@@ -26,6 +27,7 @@ app.include_router(health.router, tags=["health"])
 app.include_router(chatbot.router, prefix="/api/v1/chat", tags=["chatbot"])
 app.include_router(compliance.router, prefix="/api/v1/compliance", tags=["compliance"])
 app.include_router(documents.router, prefix="/api/v1/documents", tags=["documents"])
+app.include_router(auth_routes.router, prefix="/api/v1/auth", tags=["auth"])
 
 @app.get("/")
 async def root():

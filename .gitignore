@@ -9,6 +9,7 @@ venv/
 uv.lock
 data/raw/*
 data/vector_db/*
+data/users.json
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 *.log
