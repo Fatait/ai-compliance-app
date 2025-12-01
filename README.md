@@ -139,6 +139,9 @@ pytest --cov=compliance_ai
 black src/ tests/
 ```
 
+## Chunks
+Chunks are available on `data/vectore_db/iso9001_chunks.json`
+
 ## 🐛 Troubleshooting
 
 ### Port 8000 already in use
